@@ -11,11 +11,9 @@ jobs:
       fail-fast: false
       matrix:
         arch:
-          - aarch64_cortex-a53
           - aarch64_generic
         branch:
           - openwrt-24.10
-          - openwrt-25.12
         exclude:
           - arch: aarch64_cortex-a76
             branch: openwrt-23.05
